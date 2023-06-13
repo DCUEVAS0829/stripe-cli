@@ -24,6 +24,12 @@
       }
     ],
     "configurations": [
+      {
+        "name": "Stripe: Webhooks listen",
+        "type": "stripe",
+        "request": "launch",
+        "command": "listen"
+      },
 
         {
           "name": "Launch (stripe trigger)",
